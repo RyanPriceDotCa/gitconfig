@@ -1,0 +1,10 @@
+[user]
+  name = Ryan Price
+  email = pricester@gmail.com
+
+[alias]
+  co = checkout
+  up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+  cob = checkout -b
+  cm = !git add -A && git commit -m
+
